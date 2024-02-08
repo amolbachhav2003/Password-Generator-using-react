@@ -1,0 +1,181 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#main{
+  border-radius: 40px; 
+  margin: 5vw 15vw;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  width: 70%;
+  height: 25vw;
+  background-color: rgb(33, 33, 33);
+}
+
+h1 {
+  font-size: 2vw;
+  padding-top: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main #input {
+  width: 80%;
+  height: 3vw;
+  border-radius: 30px;
+  border: none;
+  margin-left: 1.7vw;
+  font-weight: 600;
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  padding-left: 2vw;
+}
+
+::placeholder{
+  font-size: 1vw;
+  padding-left: 2vw;
+}
+
+button{
+  box-shadow: 1px 1px 30px 1px #fd3b008c;
+  background-color: rgb(255, 102, 0);
+  color: #fff;
+  font-size: 1.1vw;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 1vw 2vw;
+  margin-left: 1.5vw;
+}
+
+button:hover{
+  background-color: rgb(177, 71, 0);
+  transition: all ease 0.3s;
+}
+
+.cursor-pointer{
+  flex: none;
+  margin: 3vw 1vw;
+}
+
+#checkbox{
+  font-size: 1.6vw;
+  padding-left: 10vw;
+  padding-top: 2vw;
+}
+
+#numberInput{
+  width: 1.3vw;
+  height: 1.3vw;
+  margin-left: 5vw;
+}
+
+#charInput{
+  width: 1.3vw;
+  height: 1.3vw;
+  margin-left: 5vw;
+}
+
+label{
+  padding-left: 1vw ;
+}
+
+#label1{
+  padding: 0px;
+}
+
+
+@media (max-width:600px){
+  #main{
+    border-radius: 10px; 
+    margin: 70vw 5vw;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 90%;
+    height: 35vw;
+    background-color: rgb(30, 30, 30);
+  }
+
+  h1 {
+    font-size: 4vw;
+    padding-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #main #input {
+    width: 80%;
+    height: 3vw;
+    border-radius: 30px;
+    border: none;
+    margin-left: 3.5vw;
+    font-weight: 600;
+    margin-top: 4vw;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+  }
+  
+  ::placeholder{
+    font-size: 1vw;
+    padding-left: 2vw;
+  }
+  
+  button{
+    box-shadow: 1px 1px 30px 1px #fd3b008c;
+    background-color: rgb(255, 102, 0);
+    color: #fff;
+    font-size: 1.1vw;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    padding: 1.5vw 3vw;
+    margin-left: 1.5vw;
+  }
+  
+  button:hover{
+    background-color: rgb(177, 71, 0);
+    transition: all ease 0.3s;
+  }
+  
+  .cursor-pointer{
+    flex: none;
+    margin: 3vw 0vw;
+  }
+
+  input[type="range"] {
+    width:14vw;
+    height: 1.5vw;
+  }
+  
+  #checkbox{
+    font-size: 1.6vw;
+    padding-left: 10vw;
+    padding-top: 4vw;
+  }
+  
+  #numberInput{
+    width: 3vw;
+    height: 3vw;
+    margin-left: 5vw;
+  }
+  
+  #charInput{
+    width: 3vw;
+    height: 3vw;
+    margin-left: 5vw;
+  }
+  
+  label{
+    font-size: 3vw;
+  }
+  
+  #label1{
+    padding: 1vw;
+  }
+  
+  
+}
